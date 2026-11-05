@@ -1,0 +1,166 @@
+body {
+background-color: lightblue;
+color: black;
+}
+h1 {
+color: darkblue;
+font-size: 36px;
+text-align: center;
+color: gray;
+}
+button {
+background-color: darkblue;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 8px;
+display: bock;
+margin 20px auto;
+}
+button:hover {
+background-color: purple;
+cursor: pointer;
+}
+.correct {
+  color: green;
+  font-size: 22px;
+  text-align: center;
+}
+
+.wrong {
+  color: red;
+  font-size: 22px;
+  text-align: center;
+}
+#quiz-container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+#quiz-container button {
+  background-color: darkblue;
+  color: white;
+  width: 80%;
+  padding: 12px;
+  margin: 8px auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+#quiz-container h2 {
+  color: darkblue;
+  font-size: 24px;
+  margin-bottom: 20px;
+}/* Button hover effect */
+#quiz-container button:hover {
+  background-color: purple;
+  transform: scale(1.03);
+}
+
+/* Smooth button effect */
+#quiz-container button {
+  transition: 0.3s;
+}
+
+/* Mobile screen support */
+@media (max-width: 600px) {
+  #quiz-container {
+    width: 85%;
+    padding: 15px;
+  }
+
+  #quiz-container button {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+/* Quiz heading */
+#quiz-container h2 {
+  margin-bottom: 20px;
+}
+/* Professional website design */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, lightblue, lavender);
+  margin: 0;
+  padding: 30px 10px;
+}
+
+/* Main heading */
+h1 {
+  text-shadow: 1px 1px 3px gray;
+}
+
+/* Quiz box */
+#quiz-container {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  min-height: 100px;
+}
+
+/* All buttons */
+button {
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.04);
+}
+
+/* Result text */
+#quiz-container p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Mobile design */
+@media (max-width: 600px) {
+  body {
+    padding: 15px 5px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  #quiz-container {
+    width: 85%;
+  }
+}
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#progress {
+  width: 0%;
+  height: 100%;
+  background-color: green;
+  border-radius: 10px;
+  transition: width 0.4s;
+}
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#progress {
+  width: 0%;
+  height: 100%;
+  background-color: green;
+  border-radius: 10px;
+  transition: width 0.4s;
+}
